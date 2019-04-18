@@ -1,0 +1,365 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="rtmp">
+      <UniqueIdentifier>{e7cc114e-63ca-4e61-a343-29ceca24b3a8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="rtmp\AMF.h">
+      <Filter>rtmp</Filter>
+    </ClInclude>
+    <ClInclude Include="rtmp\AMFReader.h">
+      <Filter>rtmp</Filter>
+    </ClInclude>
+    <ClInclude Include="rtmp\AMFWriter.h">
+      <Filter>rtmp</Filter>
+    </ClInclude>
+    <ClInclude Include="rtmp\RTMP.h">
+      <Filter>rtmp</Filter>
+    </ClInclude>
+    <ClInclude Include="rtmp\RtmpDecoder.h">
+      <Filter>rtmp</Filter>
+    </ClInclude>
+    <ClInclude Include="rtmp\RtmpSession.h">
+      <Filter>rtmp</Filter>
+    </ClInclude>
+    <ClInclude Include="rtmp\BinaryReader.h">
+      <Filter>rtmp</Filter>
+    </ClInclude>
+    <ClInclude Include="rtmp\Buffer.h">
+      <Filter>rtmp</Filter>
+    </ClInclude>
+    <ClInclude Include="rtmp\Packet.h">
+      <Filter>rtmp</Filter>
+    </ClInclude>
+    <ClInclude Include="rtmp\Media.h">
+      <Filter>rtmp</Filter>
+    </ClInclude>
+    <ClInclude Include="rtmp\MediaPacket.h">
+      <Filter>rtmp</Filter>
+    </ClInclude>
+    <ClInclude Include="rtmp\RtmpSource.h">
+      <Filter>rtmp</Filter>
+    </ClInclude>
+    <ClInclude Include="rtmp\AVC.h">
+      <Filter>rtmp</Filter>
+    </ClInclude>
+    <ClInclude Include="rtmp\RTP.h">
+      <Filter>rtmp</Filter>
+    </ClInclude>
+    <ClInclude Include="rtmp\RTPStream.h">
+      <Filter>rtmp</Filter>
+    </ClInclude>
+    <ClInclude Include="rtmp\RTSPConsumer.h">
+      <Filter>rtmp</Filter>
+    </ClInclude>
+    <ClInclude Include="rtmp\RtspSource.h">
+      <Filter>rtmp</Filter>
+    </ClInclude>
+    <ClInclude Include="rtmp\RtspSession.h">
+      <Filter>rtmp</Filter>
+    </ClInclude>
+    <ClInclude Include="rtmp\RtspRequest.h">
+      <Filter>rtmp</Filter>
+    </ClInclude>
+    <ClInclude Include="rtmp\RtspResponse.h">
+      <Filter>rtmp</Filter>
+    </ClInclude>
+    <ClInclude Include="rtmp\FlvReader.h">
+      <Filter>rtmp</Filter>
+    </ClInclude>
+    <ClInclude Include="rtmp\File.h">
+      <Filter>rtmp</Filter>
+    </ClInclude>
+    <ClInclude Include="base\Bind.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base\BlockingQueue.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base\BoostAny.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base\Callback.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base\Cond.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base\DefaultMessageLoop.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base\DrainableBuffer.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base\EndPoint.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base\EventLoopManager.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base\EventLoopThread.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base\EventMessageLoop.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base\IOBuffer.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base\Listener.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base\MessageLoop.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base\Mutex.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base\Poller.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base\RateLimiter.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base\RingBuffer.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base\RingBufferForNet.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base\SelectPoller.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base\Socket.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base\SocketFactory.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base\SocketPipe.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base\TBuffer.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base\TcpConnection.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base\TcpServer.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base\Thread.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base\ThreadPool.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base\TimeTick.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base\WaitableEvent.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base\WorkPool.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rtmp\HttpRequest.h">
+      <Filter>rtmp</Filter>
+    </ClInclude>
+    <ClInclude Include="rtmp\HttpFlvSession.h">
+      <Filter>rtmp</Filter>
+    </ClInclude>
+    <ClInclude Include="rtmp\HttpResponse.h">
+      <Filter>rtmp</Filter>
+    </ClInclude>
+    <ClInclude Include="rtmp\FlvEncoder.h">
+      <Filter>rtmp</Filter>
+    </ClInclude>
+    <ClInclude Include="rtmp\GopCache.h">
+      <Filter>rtmp</Filter>
+    </ClInclude>
+    <ClInclude Include="rtmp\HLSource.h">
+      <Filter>rtmp</Filter>
+    </ClInclude>
+    <ClInclude Include="rtmp\HlsMuxer.h" />
+    <ClInclude Include="rtmp\TsPacket .h" />
+    <ClInclude Include="rtmp\TsEncoder.h">
+      <Filter>rtmp</Filter>
+    </ClInclude>
+    <ClInclude Include="rtmp\AVCDemux.h">
+      <Filter>rtmp</Filter>
+    </ClInclude>
+    <ClInclude Include="base\Util.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HLSMuxer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="rtmp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="base\Cond.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="base\DefaultMessageLoop.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="base\EndPoint.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="base\EventLoopThread.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="base\EventMessageLoop.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="base\Listener.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="base\MessageLoop.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="base\Mutex.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="base\RateLimiter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="base\RingBuffer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="base\SelectPoller.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="base\Socket.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="base\SocketPipe.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="base\TcpConnection.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="base\TcpServer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="base\Thread.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="base\TimeTick.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="base\WaitableEvent.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="base\WorkPool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="rtmp\AMFReader.cpp">
+      <Filter>rtmp</Filter>
+    </ClCompile>
+    <ClCompile Include="rtmp\AMFWriter.cpp">
+      <Filter>rtmp</Filter>
+    </ClCompile>
+    <ClCompile Include="rtmp\RtmpDecoder.cpp">
+      <Filter>rtmp</Filter>
+    </ClCompile>
+    <ClCompile Include="rtmp\RtmpSession.cpp">
+      <Filter>rtmp</Filter>
+    </ClCompile>
+    <ClCompile Include="rtmp\BinaryReader.cpp">
+      <Filter>rtmp</Filter>
+    </ClCompile>
+    <ClCompile Include="rtmp\Packet.cpp">
+      <Filter>rtmp</Filter>
+    </ClCompile>
+    <ClCompile Include="rtmp\Buffer.cpp">
+      <Filter>rtmp</Filter>
+    </ClCompile>
+    <ClCompile Include="base\DrainableBuffer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="base\TBuffer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="rtmp\MediaPacket.cpp">
+      <Filter>rtmp</Filter>
+    </ClCompile>
+    <ClCompile Include="rtmp\RtmpSource.cpp">
+      <Filter>rtmp</Filter>
+    </ClCompile>
+    <ClCompile Include="rtmp\AVC.cpp">
+      <Filter>rtmp</Filter>
+    </ClCompile>
+    <ClCompile Include="rtmp\RTP.cpp">
+      <Filter>rtmp</Filter>
+    </ClCompile>
+    <ClCompile Include="rtmp\RTPStream.cpp">
+      <Filter>rtmp</Filter>
+    </ClCompile>
+    <ClCompile Include="rtmp\RTSPConsumer.cpp">
+      <Filter>rtmp</Filter>
+    </ClCompile>
+    <ClCompile Include="rtmp\RtspSource.cpp">
+      <Filter>rtmp</Filter>
+    </ClCompile>
+    <ClCompile Include="rtmp\RtspSession.cpp">
+      <Filter>rtmp</Filter>
+    </ClCompile>
+    <ClCompile Include="rtmp\RtspRequest.cpp">
+      <Filter>rtmp</Filter>
+    </ClCompile>
+    <ClCompile Include="rtmp\RtspResponse.cpp">
+      <Filter>rtmp</Filter>
+    </ClCompile>
+    <ClCompile Include="rtmp\FlvReader.cpp">
+      <Filter>rtmp</Filter>
+    </ClCompile>
+    <ClCompile Include="rtmp\File.cpp">
+      <Filter>rtmp</Filter>
+    </ClCompile>
+    <ClCompile Include="rtmp\HttpRequest.cpp">
+      <Filter>rtmp</Filter>
+    </ClCompile>
+    <ClCompile Include="rtmp\HttpFlvSession.cpp">
+      <Filter>rtmp</Filter>
+    </ClCompile>
+    <ClCompile Include="http-flv.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="rtmp\HttpResponse.cpp">
+      <Filter>rtmp</Filter>
+    </ClCompile>
+    <ClCompile Include="rtmp\GopCache.cpp">
+      <Filter>rtmp</Filter>
+    </ClCompile>
+    <ClCompile Include="rtmp\HLSource.cpp">
+      <Filter>rtmp</Filter>
+    </ClCompile>
+    <ClCompile Include="rtmp\TsPacket.cpp">
+      <Filter>rtmp</Filter>
+    </ClCompile>
+    <ClCompile Include="rtmp\FlvEncoder.cpp">
+      <Filter>rtmp</Filter>
+    </ClCompile>
+    <ClCompile Include="rtmp\AVCDemux.cpp">
+      <Filter>rtmp</Filter>
+    </ClCompile>
+    <ClCompile Include="rtmp\HlsMixer.h">
+      <Filter>rtmp</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

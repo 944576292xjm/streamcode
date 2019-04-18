@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{F9CCC506-C296-4E5B-90B2-BB2B2E588A71}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>rtmp</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;__Win32__;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir)\</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="base\Bind.h" />
+    <ClInclude Include="base\BlockingQueue.h" />
+    <ClInclude Include="base\BoostAny.h" />
+    <ClInclude Include="base\Callback.h" />
+    <ClInclude Include="base\Cond.h" />
+    <ClInclude Include="base\DefaultMessageLoop.h" />
+    <ClInclude Include="base\DrainableBuffer.h" />
+    <ClInclude Include="base\EndPoint.h" />
+    <ClInclude Include="base\EventLoopManager.h" />
+    <ClInclude Include="base\EventLoopThread.h" />
+    <ClInclude Include="base\EventMessageLoop.h" />
+    <ClInclude Include="base\IOBuffer.h" />
+    <ClInclude Include="base\Listener.h" />
+    <ClInclude Include="base\MessageLoop.h" />
+    <ClInclude Include="base\Mutex.h" />
+    <ClInclude Include="base\Poller.h" />
+    <ClInclude Include="base\RateLimiter.h" />
+    <ClInclude Include="base\RingBuffer.h" />
+    <ClInclude Include="base\RingBufferForNet.h" />
+    <ClInclude Include="base\SelectPoller.h" />
+    <ClInclude Include="base\Socket.h" />
+    <ClInclude Include="base\SocketFactory.h" />
+    <ClInclude Include="base\SocketPipe.h" />
+    <ClInclude Include="base\TBuffer.h" />
+    <ClInclude Include="base\TcpConnection.h" />
+    <ClInclude Include="base\TcpServer.h" />
+    <ClInclude Include="base\Thread.h" />
+    <ClInclude Include="base\ThreadPool.h" />
+    <ClInclude Include="base\TimeTick.h" />
+    <ClInclude Include="base\Util.h" />
+    <ClInclude Include="base\WaitableEvent.h" />
+    <ClInclude Include="base\WorkPool.h" />
+    <ClInclude Include="HLSMuxer.h" />
+    <ClInclude Include="rtmp\AVCDemux.h" />
+    <ClInclude Include="rtmp\TsEncoder.h" />
+    <ClInclude Include="rtmp\AMF.h" />
+    <ClInclude Include="rtmp\AMFReader.h" />
+    <ClInclude Include="rtmp\AMFWriter.h" />
+    <ClInclude Include="rtmp\AVC.h" />
+    <ClInclude Include="rtmp\BinaryReader.h" />
+    <ClInclude Include="rtmp\Buffer.h" />
+    <ClInclude Include="rtmp\File.h" />
+    <ClInclude Include="rtmp\FlvEncoder.h" />
+    <ClInclude Include="rtmp\FlvReader.h" />
+    <ClInclude Include="rtmp\GopCache.h" />
+    <ClInclude Include="rtmp\HlsMuxer.h" />
+    <ClInclude Include="rtmp\HLSource.h" />
+    <ClInclude Include="rtmp\HttpFlvSession.h" />
+    <ClInclude Include="rtmp\HttpRequest.h" />
+    <ClInclude Include="rtmp\HttpResponse.h" />
+    <ClInclude Include="rtmp\Media.h" />
+    <ClInclude Include="rtmp\MediaPacket.h" />
+    <ClInclude Include="rtmp\Packet.h" />
+    <ClInclude Include="rtmp\RTMP.h" />
+    <ClInclude Include="rtmp\RtmpDecoder.h" />
+    <ClInclude Include="rtmp\RtmpSession.h" />
+    <ClInclude Include="rtmp\RtmpSource.h" />
+    <ClInclude Include="rtmp\RTP.h" />
+    <ClInclude Include="rtmp\RTPStream.h" />
+    <ClInclude Include="rtmp\RTSPConsumer.h" />
+    <ClInclude Include="rtmp\RtspRequest.h" />
+    <ClInclude Include="rtmp\RtspResponse.h" />
+    <ClInclude Include="rtmp\RtspSession.h" />
+    <ClInclude Include="rtmp\RtspSource.h" />
+    <ClInclude Include="rtmp\TsPacket .h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="base\TBuffer.cpp" />
+    <ClCompile Include="base\Cond.cpp" />
+    <ClCompile Include="base\DefaultMessageLoop.cpp" />
+    <ClCompile Include="base\DrainableBuffer.cpp" />
+    <ClCompile Include="base\EndPoint.cpp" />
+    <ClCompile Include="base\EventLoopThread.cpp" />
+    <ClCompile Include="base\EventMessageLoop.cpp" />
+    <ClCompile Include="base\Listener.cpp" />
+    <ClCompile Include="base\MessageLoop.cpp" />
+    <ClCompile Include="base\Mutex.cpp" />
+    <ClCompile Include="base\RateLimiter.cpp" />
+    <ClCompile Include="base\RingBuffer.cpp" />
+    <ClCompile Include="base\SelectPoller.cpp" />
+    <ClCompile Include="base\Socket.cpp" />
+    <ClCompile Include="base\SocketPipe.cpp" />
+    <ClCompile Include="base\TcpConnection.cpp" />
+    <ClCompile Include="base\TcpServer.cpp" />
+    <ClCompile Include="base\Thread.cpp" />
+    <ClCompile Include="base\TimeTick.cpp" />
+    <ClCompile Include="base\WaitableEvent.cpp" />
+    <ClCompile Include="base\WorkPool.cpp" />
+    <ClCompile Include="http-flv.cpp" />
+    <ClCompile Include="rtmp.cpp" />
+    <ClCompile Include="rtmp\AMFReader.cpp" />
+    <ClCompile Include="rtmp\AMFWriter.cpp" />
+    <ClCompile Include="rtmp\AVC.cpp" />
+    <ClCompile Include="rtmp\AVCDemux.cpp" />
+    <ClCompile Include="rtmp\BinaryReader.cpp" />
+    <ClCompile Include="rtmp\Buffer.cpp" />
+    <ClCompile Include="rtmp\File.cpp" />
+    <ClCompile Include="rtmp\FlvEncoder.cpp" />
+    <ClCompile Include="rtmp\FlvReader.cpp" />
+    <ClCompile Include="rtmp\GopCache.cpp" />
+    <ClCompile Include="rtmp\HlsMixer.h" />
+    <ClCompile Include="rtmp\HLSource.cpp" />
+    <ClCompile Include="rtmp\HttpFlvSession.cpp" />
+    <ClCompile Include="rtmp\HttpRequest.cpp" />
+    <ClCompile Include="rtmp\HttpResponse.cpp" />
+    <ClCompile Include="rtmp\MediaPacket.cpp" />
+    <ClCompile Include="rtmp\Packet.cpp" />
+    <ClCompile Include="rtmp\RtmpDecoder.cpp" />
+    <ClCompile Include="rtmp\RtmpSession.cpp" />
+    <ClCompile Include="rtmp\RtmpSource.cpp" />
+    <ClCompile Include="rtmp\RTP.cpp" />
+    <ClCompile Include="rtmp\RTPStream.cpp" />
+    <ClCompile Include="rtmp\RTSPConsumer.cpp" />
+    <ClCompile Include="rtmp\RtspRequest.cpp" />
+    <ClCompile Include="rtmp\RtspResponse.cpp" />
+    <ClCompile Include="rtmp\RtspSession.cpp" />
+    <ClCompile Include="rtmp\RtspSource.cpp" />
+    <ClCompile Include="rtmp\TsPacket.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

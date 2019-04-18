@@ -1,0 +1,33 @@
+﻿  DrainableBuffer.cpp
+  http-flv.cpp
+c:\users\administrator\desktop\test\rtmp\http-flv.cpp(152): warning C4307: “*”: 整型常量溢出
+  AVC.cpp
+  AVCDemux.cpp
+c:\users\administrator\desktop\test\rtmp\rtmp\avcdemux.cpp(1): fatal error C1083: 无法打开包括文件: “AVCDemuxer.h”: No such file or directory
+  FlvReader.cpp
+  GopCache.cpp
+  HlsMixer.h
+  HLSource.cpp
+c:\users\administrator\desktop\test\rtmp\rtmp\hlsource.h(96): error C3861: “segment_close”: 找不到标识符
+c:\users\administrator\desktop\test\rtmp\rtmp\hlsource.h(109): error C2248: “base::HlsMuxer::SegmentOverFlow”: 无法访问 private 成员(在“base::HlsMuxer”类中声明)
+  c:\users\administrator\desktop\test\rtmp\rtmp\hlsmixer.h(122): note: 参见“base::HlsMuxer::SegmentOverFlow”的声明
+  c:\users\administrator\desktop\test\rtmp\rtmp\hlsmixer.h(62): note: 参见“base::HlsMuxer”的声明
+c:\users\administrator\desktop\test\rtmp\rtmp\hlsource.h(114): error C2248: “base::HlsMuxer::FlushVideo”: 无法访问 private 成员(在“base::HlsMuxer”类中声明)
+  c:\users\administrator\desktop\test\rtmp\rtmp\hlsmixer.h(63): note: 参见“base::HlsMuxer::FlushVideo”的声明
+  c:\users\administrator\desktop\test\rtmp\rtmp\hlsmixer.h(62): note: 参见“base::HlsMuxer”的声明
+  HttpFlvSession.cpp
+  RtmpDecoder.cpp
+  RtmpSession.cpp
+  RtmpSource.cpp
+  RtspSession.cpp
+c:\users\administrator\desktop\test\rtmp\rtmp\rtspsession.cpp(192): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  d:\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1774): note: 参见“sprintf”的声明
+c:\users\administrator\desktop\test\rtmp\rtmp\rtspsession.cpp(241): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  d:\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1774): note: 参见“sprintf”的声明
+c:\users\administrator\desktop\test\rtmp\rtmp\rtspsession.cpp(300): warning C4804: “<”: 在操作中使用类型“bool”不安全
+c:\users\administrator\desktop\test\rtmp\rtmp\rtspsession.cpp(289): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  d:\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1774): note: 参见“sprintf”的声明
+  RtspSource.cpp
+  TsPacket.cpp
+c:\users\administrator\desktop\test\rtmp\rtmp\tspacket.cpp(1): fatal error C1083: 无法打开包括文件: “TsPacket.h”: No such file or directory
+  正在生成代码...
